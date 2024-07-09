@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkturquoise;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;/*centralizar o texto*/
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 50px; /*bordas arredondadas*/
+    padding: 15px;/*para aumentar o espaço dentro da area*/
+    width: 500px;/*largura fixa*/
+    margin: auto;/*centralizar na tela*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.626);/*sombra 1° 5px des.lateral/ 2° 5px des.vertical /3° 10 px espalhamento / 4° cor*/
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;/*centralizar o texto*/
+    font-style: italic;
+}

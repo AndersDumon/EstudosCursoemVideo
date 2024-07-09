@@ -1,0 +1,21 @@
+numeros = list()
+nuo = list ()
+nu2 = list ()
+nu3 = list()
+for nu in range(0,3):
+    nuo.append(int(input(f'valor de[0, {nu}] : ')))
+    numeros.append(nuo[:])
+    nuo.clear()
+for nuu in range(0,3):
+    nu2.append(int(input(f'valor de [1, {nuu}]: ')))
+    numeros.append(nu2[:])
+    nu2.clear()
+for n in range(0,3):
+    nu3.append(int(input(f'valor de [2, {n}]: ')))
+    numeros.append(nu3[:])
+    nu3.clear()
+print('#'*40)
+print(f'[  {numeros[0][0]}  ][  {numeros[1][0]}  ][  {numeros[2][0]}  ]')
+print(f'[  {numeros[3][0]}  ][  {numeros[4][0]}  ][  {numeros[5][0]}  ]')
+print(f'[  {numeros[6][0]}  ][  {numeros[7][0]}  ][  {numeros[8][0]}  ]')
+print('#'*40)

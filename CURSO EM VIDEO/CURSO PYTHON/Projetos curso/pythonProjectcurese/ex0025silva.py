@@ -1,0 +1,8 @@
+print('='*70)
+print('Veja se o seu nome tem silva')
+print('='*70)
+no = str(input('Digite o seu nome completo :')).strip()
+nom = no.lower()
+print('se é [true]= tem \nou\nse for [false]= não tem ')
+print('='*70)
+print('silva' in nom)

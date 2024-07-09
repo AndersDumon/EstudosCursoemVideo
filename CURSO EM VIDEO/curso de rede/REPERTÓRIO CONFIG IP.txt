@@ -1,0 +1,24 @@
+O padrão é exibir apenas o endereço IP, a máscara de sub-rede e
+o gateway padrão para cada adaptador limitado ao TCP/IP.
+
+Para Release e Renew, se nenhum nome de adaptador for especificado,
+as concessões de endereços IP para todos os adaptadores limitados
+ao TCP/IP serão liberadas ou renovadas.
+
+Para Setclassid e Setclassid6, se nenhuma ClassId for especificada, ClassId
+será removida.
+
+Exemplos:
+    > ipconfig                       ... Mostrar informações
+    > ipconfig /all                  ... Mostrar informações detalhadas
+    > ipconfig /renew                ... renovar todos os adaptadores
+    > ipconfig /renew EL*            ... renovar qualquer conexão cujo nome
+                                         seja iniciado por EL
+    > ipconfig /release *Con*        ... liberar todas as conexões
+                                         correspondentes, por exemplo,
+                                          "Conexão Ethernet com Fio 1" ou
+                                         "Conexão Ethernet com Fio 2"
+    > ipconfig /allcompartments      ... Mostra informações sobre todos os
+                                         compartimentos
+    > ipconfig /allcompartments /all ... Mostra informações detalhadas sobre
+                                         todos os compartimentos

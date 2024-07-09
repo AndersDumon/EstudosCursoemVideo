@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais de origen</title>
+</head>
+<body>
+    <h1>Qual é o seu pais?</h1>
+    <p>Se for Não for brasileiro você é estrangeiro!</p>
+    pais de origem <input type="text" name="pa" id="pa">
+    <input type="button" value="Verifivar" onclick="checar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function checar(){
+        var pais = window.document.getElementById('pa')
+        var res = document.querySelector('div#res')
+        var pai = pais.value.toUpperCase()
+        res.innerHTML = `<p>você é do ${pai}</p>`
+        if (pai == 'BRASIL'){
+            res.innerHTML += `<p>Você é Brasileiro, seja muito bem vindo! </p>` 
+        }else if(pai == 'ARGENTINA'){
+            res.innerHTML += `<p><strong>SAI FORA DAQUI!</strong></p>`
+        }else{
+            res.innerHTML += `<p>há você é estrangeiro, I not to speakinglish</p>`
+
+        }
+        }
+    </script>
+</body>
+</html>

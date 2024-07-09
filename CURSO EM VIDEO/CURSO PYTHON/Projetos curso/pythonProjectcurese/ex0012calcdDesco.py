@@ -1,0 +1,6 @@
+print('------------------------------------------')
+print('cauculadora de desconto de 5%')
+print('------------------------------------------')
+v = float(input('Digite o valor aqui ='))
+print('O valor com desconto é {:.2f}'.format(v-(v*5)/100))
+print('------------------------------------------')

@@ -1,0 +1,6 @@
+pf = str(input('digite uma palavra ou frase : ')).strip()
+pa = pf.upper().count('A')
+print('='*70)
+print('exitem {} letras [a] '.format(pa))
+print('ela começa em:',(pf.upper().find('A')+1))
+print('ea ultima vez que aparece a letra [a] aparece na posição  :',pf.upper().rfind('A')+1)

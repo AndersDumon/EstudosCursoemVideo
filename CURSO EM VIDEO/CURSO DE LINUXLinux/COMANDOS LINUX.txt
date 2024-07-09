@@ -1,0 +1,81 @@
+Professor Ricardo Pinheiro
+
+TODO COMANDO EM MINUSCULO
+
+bash --version = para saber a versão 
+
+ls = para listar as pastas ou diretório
+[LS 1 OU 2 (-) E UMA LETRA(PARAMETRO)]
+
+EX:ls --long ou ls -l
+
+cd = entrar e sair de pastas
+EX: cd Download ou Documentos 
+
+cd ~ = comando usado no Terminal do Linux para sair do diretório atual(seja ele qual for), indo diretamente para o diretório do usuário logado no momento
+
+ls -l -h = para saber o tamanho da pasta
+ls = comando
+
+ls --all = todos os arquivos ocultos
+
+cd .. = vai voltando as pastas até o inicio
+
+cd /    = raiz
+ls -l   = raiz
+
+ls /bin = listas de comandos
+ls /dev = aonde mantem as unidades
+
+cat /proc/cpuinfo = descreve tudo sobre o arquivo da maquina
+ou 
+lscpu = mais amigavel
+
+
+pwd = o caminho
+
+mkdir Linux = criar pastas
+(se quiser criar mais de uma só escrever Linux pelo tanto que quiser criar )
+
+touch = cria arquivos
+
+
+--help = ajuda de comandos
+
+man ls = manual
+
+
+history = historico de comandos digitados
+
+!(numero) = repetir comando feito
+
+-a = pasta oculta
+
+cat =  para ver o conteúdo do arquivo ex: cat /etc/services
+tac = cat de trás para frente (piada interna o conteúdo aparece de trás para frente)
+
+rmdir = para apagar
+rm  -rf = apaga tudo (TENHA ATENÇÃO AO USAR ESSE COMANDO)
+rm  -I	= remove mas te pergunta se realmente você quer apagar
+
+alias =  para apelidar comando EX: alias rm='/bin/rm -I
+
+* =  referência global ex: ls/etc/*.conf  ou ls/etc*x* 
+
+? = referência a uma letra só ex : ls/etc/?as* ou ls/etc/???a*
+
+[] = referêcia variada ex: [a - i ] de (a) até (i) = ls/etc/p[a-i]* 
+[] = (-)INTERVALO ATÉ, EX:[A ATÉ S]  ///   (,)OU, EX:(A OU C) 
+
+
+{} = PADRÕES DE CARACTERES EX: ls/etc/?{am/ul}*
+
+
+less = para consulta de arquivos Ex: less /etc/sevices
+
+tmp = arquivos temporários
+
+cp = para copiar arquivos
+
+mv = para mover aquivos EX: mv aquivolinux.pdf pasta/
+mv = tmbm serve para renomear aquivos EX: mv temporiario/ TEMP  	temporario= nome original / TEMP = NOVO NOME

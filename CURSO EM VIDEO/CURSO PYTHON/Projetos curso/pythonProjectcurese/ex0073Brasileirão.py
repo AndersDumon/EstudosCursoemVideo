@@ -1,0 +1,18 @@
+times = ('Athletico Paranaense','Bahia','Flamengo','Bota Fogo','São Paulo','Cruzeiro','Atletico-MG',
+         'Bragantino','Palmeiras','Internacional','Fortaleza','Grêmio','Vasco da Gama','Criciúma','Juventude','Corinthians',
+        'Fluminense','EC Vitória','Atletico -Go','Cuiabá')
+print('='*70)
+print('Lista do Brasileirão 2024-28/Maio')
+print(times)
+print('='*70)
+print('Os 5 melhores')
+print(times[0:5])
+print('='*70)
+print('Os 4 ultimos colocados')
+print(times[-4:])
+print('='*70)
+print('Lista em ordem alfabética')
+print(sorted(times))
+print('='*70)
+print('Posição do Criciúma Melhor time do mundo! ')
+print('{}° Posição'.format(times.index('Criciúma')+1))

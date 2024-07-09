@@ -1,0 +1,6 @@
+print('-'*60)
+print('CONVERSOR DE TEMPERATURA')
+print('_'*60)
+g = float(input('Digite os graus aqui = °C '))
+print('{}° Graus Celcius \nequivale á \n{}°F - Fahrenheit\n{}°K - Kelvin'.format(g,g*9/5+32,g+273.15))
+print('-'*60)

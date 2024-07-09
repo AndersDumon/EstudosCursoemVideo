@@ -1,0 +1,2 @@
+class Moeda:
+    pass

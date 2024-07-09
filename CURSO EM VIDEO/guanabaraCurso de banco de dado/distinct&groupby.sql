@@ -1,0 +1,10 @@
+select distinct carga from cursos  order by carga;
+select carga from cursos group by carga;
+select carga,count(nome)from cursos group by carga;
+select totaulas from cursos order by totaulas;
+select distinct totaulas from cursos order by totaulas;
+select totaulas from cursos group by totaulas order by totaulas;
+select totaulas,count(totaulas) from cursos group by totaulas order by totaulas;
+select *from cursos where totaulas= 30 ;
+select *from cursos where totaulas > 20;
+select carga,totaulas,count(*) from cursos where totaulas=30 group by carga;
